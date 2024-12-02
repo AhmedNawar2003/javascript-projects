@@ -1,0 +1,52 @@
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+:root {
+  --black: #292d35;
+  --black-darker: #000003;
+  --white: #ffffff;
+}
+/* ***************************** */
+.blurryLoading {
+  background-image: url(../img/photo-1576161787924-01bb08dad4a4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  position: absolute;
+  filter: blur(5px);
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 30px);
+  height: calc(100vh + 30px);
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightBox {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 30px);
+  height: calc(100vh + 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lightBox h2 {
+  opacity: 0;
+  font-size: 50px;
+  transition: opacity 0.5s ease;
+  font-weight: 500;
+  color: var(--white);
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "%";
+    color: var(--white);
+    right: -30px;
+    font-size: 30px;
+    top: 10px;
+  }
+}

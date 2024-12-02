@@ -1,0 +1,8 @@
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+
+.form-control:focus,
+.btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}

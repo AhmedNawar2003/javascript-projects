@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section class="py-5">
+      <div class="container">
+        <h1 class="mb-3">Product</h1>
+        <div class="mb-4">
+          <label for="productImg">Product Img</label>
+          <input
+            type="file"
+            class="form-control"
+            id="productImg"
+            accept="image/*"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="productName">Product Name</label>
+          <input type="text" class="form-control" id="productName" />
+        </div>
+        <div class="mb-4">
+          <label for="productPrice">Product Price</label>
+          <input type="number" class="form-control" id="productPrice" />
+        </div>
+        <div class="mb-4">
+          <label for="productDescription">Product Description</label>
+          <input type="text" class="form-control" id="productDescription" />
+        </div>
+        <div class="mb-4">
+          <label for="productCount">Product Count</label>
+          <input type="number" class="form-control w-25" id="productCount" />
+        </div>
+        <div class="mb-4">
+          <input
+            type="text"
+            class="form-control w-50 m-auto my-4"
+            placeholder="search..."
+            onkeyup="searchProduct(this.value)"
+          />
+        </div>
+        <button
+          class="btn add-product mt-3 my-5"
+          onclick="addProduct()"
+          id="add_Product"
+        >
+          Add Product
+        </button>
+        <button
+          class="btn delete-all mt-3 my-5 mx-5"
+          onclick="deleteAll()"
+          id="delete_Product"
+        >
+          Delete All
+        </button>
+        <div class="onsale-Offsale m-3">
+          <span>
+            <input
+              type="radio"
+              name="saleStatus"
+              value="onSale"
+              id="onSaleRadio"
+              onclick="displayOnSale()"
+            />
+            <label for="onSaleRadio">on Sale</label>
+          </span>
+          <span>
+            <input
+              type="radio"
+              name="saleStatus"
+              value="offSale"
+              id="offSaleRadio"
+              onclick=" displayOffSale()"
+            />
+            <label for="offSaleRadio"> off Sale</label>
+          </span>
+        </div>
+
+        <div class="container">
+          <div class="row" id="row"></div>
+        </div>
+      </div>
+    </section>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+
+.images {
+  padding: 100px 0;
+}
+.images .card {
+  border: none;
+  img {
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: flex 0.7s ease-in;
+  }
+}
+
+.active {
+  width: 54px;
+  object-fit: cover;
+  transition: flex 0.7s ease-in;
+}
+.images h3 {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 10px;
+}

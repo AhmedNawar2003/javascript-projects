@@ -1,0 +1,72 @@
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+:root {
+  --black: #292d35;
+  --black-darker: #000003;
+  --white: #ffffff;
+  --blue: #476ce4;
+}
+.card {
+  border: none;
+  background-color: transparent;
+}
+/* ****************************** */
+.testimonial-Box {
+  background-color: var(--blue);
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  max-width: 768px;
+}
+.testimonial-Box .testimonial {
+  font-family: Regular-Montserrat;
+  font-size: 16px;
+  margin: 16px 0;
+  color: var(--white);
+  position: relative;
+  text-align: center;
+}
+.testimonial-Box i {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 32px;
+}
+.fa-quote-left {
+  right: -15px;
+}
+.fa-quote-right {
+  left: -19px;
+}
+.testimonial-Box img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+.testimonial-Box #name {
+  font-family: Bold-Montserrat;
+  font-size: 16px;
+  color: var(--white);
+}
+.testimonial-Box #role {
+  font-family: Regular-Montserrat;
+  font-size: 16px;
+  margin: 5px 0;
+  color: var(--white);
+}
+.progress {
+  width: 100%;
+  border-radius: 5px;
+  direction: ltr; 
+  height: 4px;
+  background-color: var(--blue);
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: var(--white);
+  width: 0%; 
+  transition: width 0.1s;
+}

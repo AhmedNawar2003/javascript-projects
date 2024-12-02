@@ -1,0 +1,62 @@
+@font-face {
+    font-family: light-fira;
+    src: url(../fonts/Fira_Sans/FiraSans-Light.ttf);
+  }
+  @font-face {
+    font-family: Regular-fira;
+    src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: Medium-fira;
+    src: url(../fonts/Fira_Sans/FiraSans-Medium.ttf);
+  }
+  @font-face {
+    font-family: thin-fira;
+    src: url(../fonts/Fira_Sans/FiraSans-Thin.ttf);
+  }
+  @font-face {
+    font-family: Bold-fira;
+    src: url(../fonts/Fira_Sans/FiraSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: ExtraBold-fira;
+    src: url(../fonts/Fira_Sans/FiraSans-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: Black-fira;
+    src: url(../fonts/Fira_Sans/FiraSans-Black.ttf);
+  }
+  @font-face {
+    font-family: SemiBold-fira;
+    src: url(../fonts/Fira_Sans/FiraSans-SemiBold.ttf);
+  }
+  /* ******************************************************* */
+  @font-face {
+    font-family: light-open-sans;
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+  }
+  @font-face {
+    font-family: Regular-open-sans;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: Medium-open-sans;
+    src: url(../fonts/Open_Sans/OpenSans-Medium.ttf);
+  }
+  @font-face {
+    font-family: Bold-open-sans;
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: ExtraBold-open-sans;
+    src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: SemiBold-open-sans;
+    src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+  }
+  /* ****************************************************** */
+  @font-face {
+    font-family:Sacramento ;
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+  }

@@ -1,0 +1,45 @@
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+/* ******************************* */
+.card{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.card img{
+  height: 260px;
+  object-fit: cover;
+  cursor: pointer;
+}
+#lightBoxContainer{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.652);
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+#lightBoxItem{
+  width: 700px;
+  height: 400px;
+  background-image: url(../img/10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 15px;
+}
+#lightBoxItem i{
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+}
+#closeBtn{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
